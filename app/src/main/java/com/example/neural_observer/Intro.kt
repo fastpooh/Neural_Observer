@@ -20,11 +20,11 @@ class Intro : AppCompatActivity() {
             insets
         }
 
-        // Move to main scene after 3000 ms
+        // Move to main scene after 1.5s
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this@Intro, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3000)
+        }, 1500)
     }
 }
