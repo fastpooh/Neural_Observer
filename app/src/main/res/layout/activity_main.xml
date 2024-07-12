@@ -7,13 +7,376 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="180dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/toggleButton00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="180dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/divider"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/toggleButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Nona 1"
+                android:textOff="Nona 1"
+                android:background="@drawable/toggle_button_background"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewGPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPU"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <TextView
+        android:id="@+id/textViewNPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPU"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <TextView
+        android:id="@+id/textView_GPUfreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPU : x Mhz\n Util : 00 %"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGPU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0 s"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNPU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton26"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/toggle_button_record"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toTopOf="@+id/textViewNPU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

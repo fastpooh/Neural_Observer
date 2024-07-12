@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="grey">#DADADA</color> <!-- Red color for on state -->
+    <color name="red">#FEB1B1</color> <!-- Green color for off state -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
